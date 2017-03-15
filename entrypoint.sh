@@ -11,6 +11,7 @@ cp /etc/ssh/insecure_keypair /root/.ssh/id_rsa
 cp /etc/ssh/insecure_keypair.pub /root/.ssh/id_rsa.pub
 
 chmod -R og= /root/.ssh
+chmod og= /etc/ssh/insecure_keypair
 
 mkdir -p /var/run/sshd
 mkdir -p /tmp/.docker_generated/supervisord/
